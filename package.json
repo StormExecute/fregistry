@@ -1,0 +1,30 @@
+{
+  "name": "fregistry",
+  "os": ["win32"],
+  "version": "1.0.0",
+  "author": "cotenochek",
+  "license": "MIT",
+  "description": "Fast windows registry editor",
+  "homepage": "https://github.com/StormExecute/fregistry/#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StormExecute/fregistry.git"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node tests/index.js"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "keywords": [
+    "fregistry",
+    "registry",
+    "regedit",
+    "windows",
+    "utils"
+  ],
+  "dependencies": {
+    "iconv-lite": "^0.6.3"
+  }
+}
