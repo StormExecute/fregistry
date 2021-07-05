@@ -11,6 +11,7 @@
     "url": "https://github.com/StormExecute/fregistry.git"
   },
   "main": "src/index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "node tests/index.js"
   },
